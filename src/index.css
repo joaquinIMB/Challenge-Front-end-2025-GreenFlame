@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "GTWalsheim";
+  src: url("/fonts/subset-GTWalsheim-Regular-_1.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "GTWalsheim";
+  src: url("/fonts/subset-GTWalsheim-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "GTWalsheim";
+  src: url("/fonts/subset-GTWalsheim-Bold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+:root {
+  font-family: GTWalsheim;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f1f3f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.shadowDetail{
+  box-shadow: 0 0 8px 0 #0000001a;
+}
